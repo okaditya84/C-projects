@@ -25,6 +25,7 @@ void add_to_list(struct Contact_book* ptr, long long int ph_number, char name[],
         if(head == NULL) {
             head = ptr;
             printf("Contact Added Successfully\n");
+            printf("Aashit Agrawal added this line\n");
             printf("--------------------------\n");
             return;
         }
