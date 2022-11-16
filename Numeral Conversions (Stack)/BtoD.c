@@ -8,6 +8,7 @@ void pushBD();
 void popBD();
 void BtoD(int num1)
 {
+    printf("Inside BtoD function\n");
     num = num1;
     while (num1 > 0)
     {
