@@ -2,8 +2,7 @@
 #include <conio.h>
 #define MAXBD 100
 int stackBD[MAXBD];
-int topBD = -1;
-int num;
+int topBD = -1, num;
 void pushBD();
 void popBD();
 void BtoD(int num1)
