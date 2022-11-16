@@ -8,6 +8,7 @@ void pushBD();
 void popBD();
 void BtoD(int num1)
 {
+    printf("Inside BtoD function \n");
     num = num1;
     while (num1 > 0)
     {
@@ -24,6 +25,7 @@ void BtoD(int num1)
 }
 void pushBD()
 {
+    printf("Inside BD function \n");
     int rem;
 
     int dec_value = 0;
@@ -49,6 +51,7 @@ void pushBD()
 }
 void popBD()
 {
+    printf("Inside PopBD function \n");
     int i;
     printf("Its decimal form: ");
     printf("%d", stackBD[topBD]);
