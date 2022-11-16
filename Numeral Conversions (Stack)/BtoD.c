@@ -2,12 +2,12 @@
 #include <conio.h>
 #define MAXBD 100
 int stackBD[MAXBD];
-int topBD = -1;
-int num;
+int topBD = -1, num;
 void pushBD();
 void popBD();
 void BtoD(int num1)
 {
+    printf("Inside BtoD function\n");
     num = num1;
     while (num1 > 0)
     {
@@ -24,10 +24,7 @@ void BtoD(int num1)
 }
 void pushBD()
 {
-    int rem;
-
-    int dec_value = 0;
-    int base = 1;
+    int dec_value = 0, base =1, rem;
     int temp = num;
     while (temp)
     {
