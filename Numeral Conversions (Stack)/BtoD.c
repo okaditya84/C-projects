@@ -25,10 +25,7 @@ void BtoD(int num1)
 }
 void pushBD()
 {
-    int rem;
-
-    int dec_value = 0;
-    int base = 1;
+    int dec_value = 0, base =1, rem;
     int temp = num;
     while (temp)
     {
